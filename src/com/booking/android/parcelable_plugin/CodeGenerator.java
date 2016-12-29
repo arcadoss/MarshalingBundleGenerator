@@ -98,6 +98,7 @@ public class CodeGenerator {
                 sb.append(serializer.writeValue(SerializableValue.member(field), "bundle", ""));
             }
 
+            sb.append("dest.writeBundle(bundle.toBundle());");
             sb.append("}");
         }
 

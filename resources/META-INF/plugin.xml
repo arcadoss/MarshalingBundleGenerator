@@ -1,7 +1,7 @@
 <idea-plugin version="8">
   <id>com.booking.android.parcelable_plugin</id>
   <name>MarshalingBundle based Parcelable code generator</name>
-  <version>0.9.1</version>
+  <version>0.9.2</version>
   <vendor email="sergey.dovgal@booking.com">Sergey Dovgal</vendor>
 
   <description><![CDATA[
