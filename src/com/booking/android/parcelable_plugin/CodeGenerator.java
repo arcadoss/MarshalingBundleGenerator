@@ -16,7 +16,7 @@ import java.util.Map;
 public class CodeGenerator {
     public static final String CREATOR_NAME = "CREATOR";
     public static final String TYPE_PARCEL = "android.os.Parcel";
-    private static String M_BUNDLE = "com.booking.common.util.MarshalingBundle";
+    private static String M_BUNDLE = "com.booking.commons.android.MarshalingBundle";
     public static final String INTERFACE_NAME = "BundleKey";
 
     private final PsiClass mClass;
